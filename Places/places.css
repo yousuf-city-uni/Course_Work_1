@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat:ital,wght@0,100;1,100&display=swap');
+
+body{
+  font-family: 'ABeeZee';
+}
+
+#title{
+  text-align: center;
+}
+
+.horizontal_banner{
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 15%;
+  background-color: #5b91a9;
+  color: white;
+  overflow: auto;
+  box-shadow: 0px 4px 6px #00000066
+}
+
+#top{
+  text-align: center;
+}
+
+#hamburger_button_main{
+  float: left;
+  padding: 5px;
+  left: 5%;
+}
+
+#list_button{
+  display: block;
+  padding: 10px;
+}
+
+.vertical_banner {
+  position: fixed;
+  top: 0%;
+  left: 0px;
+  width: 15%;
+  height: 100%;
+  background-color: #f1f1f1;
+  overflow: auto;
+  box-shadow: 3px 0px 6px #00000066;
+  display: none;
+}
+
+.banner_list {
+  display: block;
+  color: #555;
+  padding-top: 15%;
+  font-size: 20px;
+}
+
+.links {
+  color: #5eaed6;
+  text-decoration: none;
+}
+
+.locations{
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 6px #00000066;
+  padding: 10px;
+}
+
+.italy{
+  padding: 40px;
+  text-align: center;
+}
+
+.portugal{
+  padding: 40px;
+  text-align: center;
+}
+
+.norway{
+  padding: 40px;
+  text-align: center;
+}
+
+.list{
+  color: #5;
+  text-decoration: none;
+  text-align: left;
+}
+
+.tall_img{
+  width: 300px;
+  height: 400px;
+}
+
+.wide_img{
+  width: 400px;
+  height: 300px;
+}
+
+.Duomo{
+  box-shadow: 0px 0px 6px #00000066;
+  display: flex;
+  justify-content: center;
+}
+
+.Castelo_jorge{
+  box-shadow: 0px 0px 6px #00000066;
+  display: flex;
+  justify-content: center;
+}
+
+.Deichman_Library{
+  box-shadow: 0px 0px 6px #00000066;
+  display: flex;
+  justify-content: center;
+}
+
+#duomo_img{
+  padding: 5px;
+}
+
+#sintra_palace{
+  padding: 5px;
+}
+
+#Deichman_Library{
+  padding: 5px;
+}
+
+.sub_img{
+  width: 200px;
+  height: 150px;
+  padding: 5px;
+}
+
+.content{
+  float: left;
+  left: 0px;
+  text-align: left;
+  padding: 10px;
+  overflow: auto;
+}

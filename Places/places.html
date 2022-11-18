@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="places.css">
+    <title>Places I Have Visited</title>
+  </head>
+  <body>
+    <div class="horizontal_banner">
+      <img src="../Icons/hamburger_button_white.png"  onclick="hamburger_button()" id="hamburger_button_main">
+      <h1 id="title">
+        Places I Have Visited
+      </h1>
+    </div>
+    <div class="vertical_banner" id="vertical_banner">
+      <ul>
+        <li id="list_button"><img src="../Icons/hamburger_button_black.png"  onclick="hamburger_button()" id="hamburger_button_second"></li>
+        <li class="banner_list"><b><u><a href="../Index.html">Return To Homepage</a></u></b></li>
+        <li class="banner_list"><b>Links:</b></li>
+        <li class="banner_list"><a class="links" href="#duomo_section">The Duomo</a></li>
+        <li class="banner_list"><a class="links" href="#pena">Pena Palace</a></li>
+        <li class="banner_list"><a class="links" href="#Deichman">Deichman Library</a></li>
+        <li class="banner_list"><a class="links" href="#top">To The Top</a></li>
+      </ul>
+    </div>
+    <br>
+    <div class="locations" id="top">
+      <div class="italy" id="italy">
+        <h2 class="header">Italy</h2>
+        <hr>
+        <div class="list">
+          <h4>Places Visited:</h4>
+          <ul>
+            <li>Duomo</li>
+            <li>Naviglio Pavese and Naviglio Grande</li>
+            <li>Sempione Park</li>
+            <li>Museo del Novecento</li>
+            <li>Lake Como</li>
+          </ul>
+        </div>
+      </div>
+      <div class="portugal" id="portugal">
+        <h2 class="header">Portugal</h2>
+        <hr>
+        <div class="list">
+          <h4>Places Visited:</h4>
+          <ul>
+            <li>Castelo de S. Jorge</li>
+            <li>Park and National Palace of Pena</li>
+            <li>Sintra</li>
+            <li>Panorâmico de Monsanto</li>
+            <li>Cais do Sodre</li>
+          </ul>
+        </div>
+      </div>
+      <div class="norway" id="norway">
+        <h2 class="header">Norway</h2>
+        <hr>
+        <div class="list">
+          <h4>Places Visited:</h4>
+          <ul>
+            <li>Deichman Library</li>
+            <li>Oslo Opera House</li>
+            <li>The Royal Palace</li>
+            <li>Stovnertårnet</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="Duomo" id="duomo_section">
+      <div class="content">
+        <!--info taken from: https://www.yesmilano.it/en/see-and-do/venues/duomo-di-milano-->
+        <h3>The Duomo</h3>
+        <p>
+          The Duomo in Milan, which is composed of pink-hued white marble from a specific quarry, is the largest and most intricate Gothic structure in Italy. At the top of the main spire, where the gleaming golden statue of the Madonnina is located. The cathedral is 157 meters long and 108.5 meters high.
+        </p>
+        <hr>
+        <p>Related Photos:</p>
+        <figure>
+          <img src="Images/italy_2.jpg" class="sub_img">
+          <img src="Images/italy_3.jpg" class="sub_img">
+        </figure>
+      </div>
+      <figure>
+        <img src="Images/italy_1.jpg" class="tall_img" id="duomo_img">
+      </figure>
+    </div>
+    <br>
+    <div class="Castelo_jorge" id="pena">
+      <div class="content">
+        <h3>Palace of Pena</h3>
+        <p>
+          The famed gem in the Sintra Hills' crown, the National Palace of Pena, stands out.The surrounding park evokes feelings of mystery and discovery since it works so well with the palace's wonderful aura. Our gaze becomes lost among its attractions and its crevices.
+        </p>
+        <hr>
+        <p>Related Photos:</p>
+        <figure>
+          <img src="Images/portugal_1.jpg" class="sub_img">
+          <img src="Images/portugal_3.jpg" class="sub_img">
+        </figure>
+      </div>
+      <figure>
+        <img src="Images/portugal_2.jpg" class="wide_img" id="sintra_palace">
+        <figcaption>image from <a href="https://www.penapalacetickets.com/national-palace-of-pena-sintra/">https://penapalacetickets.com</a></figcaption>
+      </figure>
+    </div>
+    <br>
+    <div class="Deichman_Library" id="Deichman">
+      <div class="content">
+        <h3>Deichman Library</h3>
+        <p>
+          There are 22 neighbourhood libraries in Oslo that make up Deichman.
+          The oldest and largest public library in Norway is Deichman, which opened its doors in 1785.
+          Deichman Bjrvika, Oslo's new central library, is situated between the Opera and Oslo Central Station.
+        </p>
+        <hr>
+        <p>Related Photos:</p>
+        <figure>
+          <img src="Images/norway_1.jpg" class="sub_img">
+          <img src="Images/norway_2.jpg" class="sub_img">
+        </figure>
+      </div>
+      <figure>
+        <img src="Images/norway_3.jpg" class="wide_img" id="Deichman_Library">
+      </figure>
+    </div>
+    <script src="places.js"></script>
+  </body>
+</html>
